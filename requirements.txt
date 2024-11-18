@@ -1,0 +1,10 @@
+torch
+transformers
+diffusers
+numpy
+pandas
+matplotlib
+seaborn
+opencv-python
+huggingface_hub
+scipy
