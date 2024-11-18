@@ -86,11 +86,22 @@ Usage:
 
 1. Data Preparation
 
+Use Generating_and_Preprocessing_Dialects_Data_last_version.ipynb to preprocess the Flickr8K dataset and generate dialectal captions.
+
+
 2. Dialect Transformation
 
-3. Image Generation
+Run From_Arabic_Dialects_to_MSA_and_English_Transforamation_last_version.ipynb to transform dialect captions into MSA and English.
 
-4. Evaluation
+
+
+3. Image Generation:
+
+Test the Alt Diffusion model with MSA-transformed captions using Testing_Alt_Diffusion_with_MSA_transformation_last_version.ipynb.
+
+4. Evaluation:
+
+Evaluate generated images using scripts in the src/ directory.
 
 Evaluation Metrics:
 
