@@ -1,11 +1,11 @@
-Dialect-Aware Text-to-Image Generation Using Diffusion Models
+# Dialect-Aware Text-to-Image Generation Using Diffusion Models
 
-Project Overview:
+## Project Overview:
 
 This repository contains the implementation of a research project focused on enhancing text-to-image generation models for Arabic dialects using diffusion-based models. The project investigates the performance of models like Alt Diffusion on various Arabic dialects, including Egyptian, Saudi, Moroccan, and Khaleeji, by transforming dialect prompts into Modern Standard Arabic (MSA) or English.
 
 
-Objectives:
+## Objectives:
 
 Evaluate the ability of text-to-image generation models to interpret and generate accurate images from Arabic dialects.
 
@@ -13,7 +13,7 @@ Transform dialectal prompts into MSA and English to enhance image quality.
 
 Compare the performance of different text-to-image generation models, including Alt Diffusion.
 
-Key Contributions:
+## Key Contributions:
 
 Development of workflows for translating Arabic dialects into MSA and English.
 
@@ -22,7 +22,7 @@ Evaluation of the impact of dialect transformation on image generation quality.
 Creation of a dialect-specific dataset based on the Flickr8K dataset.
 
 
-Features:
+## Features:
 
 Dialect Transformation: Converts dialectal Arabic captions to MSA and English using state-of-the-art models.
 
@@ -30,7 +30,7 @@ Text-to-Image Generation: Generates images from transformed captions using Alt D
 
 Evaluation Metrics: Uses FID, Inception Score, and CLIP Score to assess the quality and relevance of generated images.
 
-Repository Structure:
+## Repository Structure:
 
 Dialect-Aware-Text-to-Image-Generation
 
@@ -48,7 +48,7 @@ eval.py
 
 utils.py
 
-Installation:
+## Installation:
 
 1- Clone the repository:
 
@@ -59,7 +59,7 @@ cd Dialect-Aware-Text-to-Image-Generation
 
 pip install -r requirements.txt
 
-Usage:
+## Usage:
 
 1. Data Preparation
 
@@ -78,7 +78,7 @@ Test the Alt Diffusion model with MSA-transformed captions using Testing_Alt_Dif
 
 Evaluate generated images using scripts in the src/ directory.
 
-Evaluation Metrics:
+## Evaluation Metrics:
 
 Fréchet Inception Distance (FID): Measures similarity between generated and real images.
 
@@ -86,11 +86,11 @@ Inception Score (IS): Evaluates quality and diversity of generated images.
 
 CLIP Score: Assesses alignment between text prompts and generated images.
 
-Results:
+## Results:
 
 Preliminary experiments with Alt Diffusion show that transforming dialectal prompts into MSA or English significantly improves image quality. Future experiments will incorporate Stable Diffusion and Flux Model for comparative analysis.
 
-License:
+## License:
 
 This project is licensed under the MIT License.
 
