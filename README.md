@@ -13,6 +13,7 @@ Transform dialectal prompts into MSA and English to enhance image quality.
 
 Compare the performance of different text-to-image generation models, including Alt Diffusion.
 
+python eval.py metric_plot  -n $modelName
 
 Key Contributions:
 
