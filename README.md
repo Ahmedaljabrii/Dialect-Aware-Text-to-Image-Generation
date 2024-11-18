@@ -40,10 +40,6 @@ LICENSE
 
 requirements.txt
 
-src/
-
-models/
-
 dataset.py
 
 train.py
@@ -51,24 +47,6 @@ train.py
 eval.py
 
 utils.py
-
-notebooks/
-
-Transformation.ipynb
-
-Preprocessing.ipynb
-
-AltDiffusion.ipynb
-
-data/
-
-raw/
-
-processed/
-
-results/
-
-docs/
 
 Installation:
 
@@ -91,8 +69,6 @@ Use Generating_and_Preprocessing_Dialects_Data_last_version.ipynb to preprocess 
 2. Dialect Transformation
 
 Run From_Arabic_Dialects_to_MSA_and_English_Transforamation_last_version.ipynb to transform dialect captions into MSA and English.
-
-
 
 3. Image Generation:
 
