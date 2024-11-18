@@ -1,8 +1,20 @@
-# Dialect-Aware Text-to-Image Generation Using Diffusion Models
+# Dialect-Aware Text-to-Image Generation Using Diffusion Models: A Comparative Study
 
 ## Project Overview:
 
-This repository contains the implementation of a research project focused on enhancing text-to-image generation models for Arabic dialects using diffusion-based models. The project investigates the performance of models like Alt Diffusion on various Arabic dialects, including Egyptian, Saudi, Moroccan, and Khaleeji, by transforming dialect prompts into Modern Standard Arabic (MSA) or English.
+The rise of text-to-image generation models has demonstrated exceptional accuracy
+and creativity, primarily in English and other well-resourced languages. However,
+challenges remain for underrepresented languages, especially dialectal variations in
+Arabic, which lack standardized grammar and vocabulary. This project addresses the
+need for dialect-aware models by investigating the performance of text-to-image
+generation models on various Arabic dialects, including Egyptian, Saudi, Moroccan,
+and Khaleeji (Kuwaiti, Emirati) dialects.
+
+The aim is to evaluate if transforming dialect prompts into Modern Standard Arabic
+(MSA) or English enhances image generation quality and aligns generated images
+more closely with expected visuals. This research advances existing work by adapting
+text-to-image models for Arabic dialects through sophisticated dialect processing,
+transformation workflows, and model evaluation..
 
 
 ## Objectives:
