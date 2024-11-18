@@ -1,0 +1,10 @@
+from models.alt_diffusion import AltDiffusionWrapper
+from dataset import preprocess_dialect_data, load_flickr8k_data
+
+def train_model(data_path):
+    data = load_flickr8k_data(data_path)
+    dialect_data = preprocess_dialect_data(data, "dialect_column")
+    model = AltDiffusionWrapper()
+    for prompt in dialect_data:
+        image = model.generate_image(prompt)
+        # Save or process the image
