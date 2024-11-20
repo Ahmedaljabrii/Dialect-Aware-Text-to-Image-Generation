@@ -34,7 +34,7 @@ Evaluation of the impact of dialect transformation on image generation quality.
 Creation of a dialect-specific dataset based on the Flickr8K dataset.
 
 
-## Features:
+## Features:؟؟؟؟
 
 Dialect Transformation: Converts dialectal Arabic captions to MSA and English using state-of-the-art models.
 
