@@ -1,8 +1,0 @@
-from PIL import Image
-from torchvision.transforms import ToTensor
-from scipy.spatial import distance
-
-def calculate_fid(real_images, generated_images):
-    # Placeholder FID calculation
-    fid = distance.euclidean(real_images.mean(), generated_images.mean())
-    return fid
