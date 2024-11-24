@@ -1,9 +1,0 @@
-from diffusers import StableDiffusionPipeline
-
-class AltDiffusionWrapper:
-    def __init__(self, model_name="superhero-7/AltDiffusion"):
-        self.pipeline = StableDiffusionPipeline.from_pretrained(model_name)
-
-    def generate_image(self, prompt, num_images=1):
-        images = self.pipeline(prompt, num_inference_steps=50, guidance_scale=7.5)
-        return images
