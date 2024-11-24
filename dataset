@@ -1,9 +1,0 @@
-import pandas as pd
-import os
-
-def load_flickr8k_data(data_dir):
-    file_path = os.path.join(data_dir, "flickr8k.csv")
-    return pd.read_csv(file_path)
-
-def preprocess_dialect_data(df, dialect_column):
-    return df[dialect_column].apply(lambda x: x.lower().strip())
